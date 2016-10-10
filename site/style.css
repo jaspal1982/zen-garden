@@ -1,0 +1,22 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #A9CCE3;
+	font-family: 'Rokkitt', serif;
+}
+ header{
+ 	height: 200px;
+    border-bottom: 1px solid #273746;
+	background-color: #D2B4DE;
+	background-image: url(Images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+h1, h2{
+	font-size: 30px;
+	text-align: center;
+	color: #FDFEFE;
+}

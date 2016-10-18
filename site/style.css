@@ -45,34 +45,126 @@ line-height: 22px;
 }
 a{
 
-	text-decoration: none;
+	text-decoration:none;
+    line-height: 22px;
+    font-weight: 600;
+	color: #4D5656;
+	position: relative;
+	display: inline-block;
+	
 }
 
+a:after{
+content: '';
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 1px;
+transform: scaleX(0);
+background-color: #4D5656;
+transition: all .2s ease-in;
 
-.main, section div{
+}
+a:hover::after{
+	transform: scaleX(1);
+}
+.sidebar a:hover{
+	font-size: 17px;
+transition: all .2s linear;
+}
 
-	width:800px;
+.summary{
+	width:400px;
 	float: left;
 	border: 1px solid red;
 	margin: 10px;
 	padding: 10px;
 }
+.preamble{
+width:400px;
+	float: left;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+	clear: left;
 
+}
+.explanation{
+width:400px;
+	
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+clear: left;
 
+}
+.participation{
+
+width:400px;
+	float: left;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+
+}
+.benefits{
+
+width:400px;
+	float: left;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+
+}
+.requirements{
+
+	width:400px;
+	float: left;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+}
+footer{
+	width:400px;
+	float: left;
+	border: 1px solid red;
+	margin: 10px;
+	padding: 10px;
+}
 .sidebar{
-
+  
 	position: absolute;
 	left:900px;
 	width: 400px;
-	margin: 20px;
+	margin: 10px;
 	border: 5px solid #D2B4DE;
-	height: 900px; 
+	height: 1000px; 
+	
+	background: #2ECC71;
 }
+.design-selection{
 
+}
+.sidebar ul{
+	margin: 0px;
+	padding: 0px;
+}
 .sidebar li{
 
 	list-style: none;
+	
+	font-family: 'Raleway', sans-serif;
+	line-height: 22px;
+	
+	padding: 15px;
 }
+
+.sidebar li a{
+	position: relative;
+	
+}
+
 
 
 
